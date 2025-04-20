@@ -8,10 +8,10 @@ import { saveAs } from "file-saver";
 const HeroSection = () => {
     const saveFile = () => {
         saveAs(
-          "/Arpit_Resume.pdf", "Arpit_Resume"
+            "/Arpit_Resume.pdf", "Arpit_Resume"
         );
     };
-    
+
     return (
         <section id="About">
             <div className={'grid grid-cols-1 sm:grid-cols-12 mx-auto'}>
@@ -38,7 +38,7 @@ const HeroSection = () => {
                     </h1>
                     <p className={'text-[#ADB7BE] text-md mb-6 sm:text-lg lg:text-md mx-auto mt-10'}>
                         <span className='font-bold'>Welcome to my portfolio website!</span>
-                        <br /> With a strong foundation in Computer Science, I'm passionate about turning theory into practical solutions for real challenges. I stay current with industry trends while delivering high-quality, impactful work. I value technical excellence and collaborative leadership, approaching each project as an opportunity to innovate. My goal is to advance our field through purposeful application of technology while supporting the growth of those around me.
+                        <br /> With a strong foundation in Computer Science, I am passionate about turning theory into practical solutions for real challenges. I stay current with industry trends while delivering high-quality, impactful work. I value technical excellence and collaborative leadership, approaching each project as an opportunity to innovate. My goal is to advance our field through purposeful application of technology while supporting the growth of those around me.
                     </p>
                     <div>
                         <button className={'mr-1 px-1 py-1 w-full sm:w-fit rounded-full bg-gradient-to-br from-blue-500 via-purple-500 to-pink-500 hover:bg-slate-800 text-white mt-3'}>
